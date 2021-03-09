@@ -1,0 +1,16 @@
+@charset "utf-8";
+@import '../node_modules/bulma/bulma.sass';
+
+.subtitle {
+  margin-bottom: 36px;
+  font-size: 1.2em;
+}
+
+.card:hover {
+  transform: scale(1.04);
+  transition: transform ease-in 0.3s;
+}
+
+.card {
+  transition: transform ease-out 0.3s;
+}

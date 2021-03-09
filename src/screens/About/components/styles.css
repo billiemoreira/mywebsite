@@ -1,0 +1,45 @@
+p {
+  padding: 4px 0;
+}
+
+.column:first-child {
+  padding: 3rem;
+}
+
+.column:nth-child(2) {
+  padding-right: 3rem;
+}
+
+.imagesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.images {
+  flex: 25%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.images > img {
+  margin-top: 8px;
+  vertical-align: middle;
+  max-height: 355px;
+  padding: 0 4px;
+}
+
+@media screen and (max-width: 800px) {
+  .images {
+    flex: 75%;
+    max-width: 75%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .images {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
