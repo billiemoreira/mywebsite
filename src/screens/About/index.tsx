@@ -5,7 +5,7 @@ import Hero from './components/Hero'
 export default function About() {
   return (
     <>
-      <div className="title">About Me</div>
+      <div className="title is-flex is-justify-content-center mt-2">About Me</div>
       <Hero />
       <Drawings />
     </>
