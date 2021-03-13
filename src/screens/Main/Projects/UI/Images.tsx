@@ -9,7 +9,7 @@ export default function Images({
 }) {
   return (
     <div className="columns is-centered">
-      <img className={className ? className : 'column'} src={source} />
+      <img onClick={() => open(source)} className={className ? className : 'column'} src={source} />
     </div>
   )
 }
