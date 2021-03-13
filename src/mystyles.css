@@ -7768,3 +7768,6 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .card {
   transition: transform ease-out 0.3s; }
+
+.images img {
+  cursor: pointer; }
