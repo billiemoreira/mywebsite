@@ -7763,7 +7763,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   font-size: 1.2em; }
 
 .card:hover {
-  transform: scale(1.04);
+  transform: scale(1.02);
   transition: transform ease-in 0.3s; }
 
 .card {

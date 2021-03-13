@@ -11,6 +11,7 @@ export default function Portfolio() {
         gridGap: '18px',
         padding: '0 4px',
         placeContent: 'center',
+        marginBottom: '16px'
       }}
     >
       {cards.map(({ image, title, year, type, description, path }) => (
