@@ -15,8 +15,32 @@
   transition: transform ease-out 0.3s;
 }
 
+.columns {
+  img {
+    cursor: pointer;
+  }
+}
+
 .images {
   img {
     cursor: pointer;
+  }
+}
+
+.hero {
+  .subtitle {
+    line-height: 1.6em;
+    margin-top: 1rem !important; 
+    margin-bottom: 0;
+  }
+}
+
+.card .media:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.media-content {
+  .subtitle {
+    margin-bottom: 0;
   }
 }

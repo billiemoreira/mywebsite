@@ -12,7 +12,7 @@ export default function Links() {
         About Me
       </Link>
 
-      <a href="mailto:bilianemoreira@gmail.com" className="navbar-item">
+      <a href="mailto:bilianemoreira@gmail.com" target="_blank" rel="noreferrer" className="navbar-item">
         Contact
       </a>
     </>

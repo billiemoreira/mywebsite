@@ -12,7 +12,7 @@ export default function ProjectText({ title, description, children }: Props) {
       className="hero"
       style={{
         alignItems: 'center',
-        marginTop: '52px',
+        marginTop: title ? '52px' : '0',
         width: '75%',
         alignSelf: 'center',
       }}
@@ -27,21 +27,10 @@ export default function ProjectText({ title, description, children }: Props) {
           {title}
         </span>
       )}
-      {children && (
-        <p
-          style={{
-            fontWeight: 'bold',
-            marginTop: '16px',
-            wordWrap: 'break-word',
-            alignSelf: 'center',
-            textAlign: 'center',
-          }}
-          className="subtitle"
-        >
-          {children}
-        </p>
-      )}
-      {description && <p className="subtitle">{description}</p>}
+      {(description || children) && <p className="subtitle">
+        {children && children}<br />
+        {description && description}
+        </p>}
     </div>
   )
 }
