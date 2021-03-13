@@ -5,7 +5,7 @@ import Links from './UI/Links'
 
 export default function Header() {
   return (
-    <nav className="navbar" role="navigation" aria-label="main navigation">
+    <nav className="navbar mt-4" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
         <a className="navbar-item" href="/">
           <img src={logo} width="55" alt="logo" />
