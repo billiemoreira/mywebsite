@@ -12,14 +12,14 @@ export default function Drawings() {
   return (
     <div className="imagesContainer">
       <div className="images">
-        <img src={flower} />
-        <img src={woman} />
-        <img src={robin} />
+        <img onClick={() => open(flower)} src={flower} />
+        <img onClick={() => open(woman)} src={woman} />
+        <img onClick={() => open(robin)} src={robin} />
       </div>
       <div className="images">
-        <img src={city} />
-        <img src={tree} />
-        <img src={girl} />
+        <img onClick={() => open(city)} src={city} />
+        <img onClick={() => open(tree)} src={tree} />
+        <img onClick={() => open(girl)} src={girl} />
       </div>
     </div>
   )
