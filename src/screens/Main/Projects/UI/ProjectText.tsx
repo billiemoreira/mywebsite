@@ -28,7 +28,7 @@ export default function ProjectText({ title, description, children }: Props) {
         </span>
       )}
       {(description || children) && <p className="subtitle">
-        {children && children}<br />
+        <strong>{children && children}</strong><br />
         {description && description}
         </p>}
     </div>
