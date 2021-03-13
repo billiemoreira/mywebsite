@@ -11,6 +11,10 @@ export default function Links() {
       <Link to="/about" className="navbar-item">
         About Me
       </Link>
+
+      <a href="mailto:bilianemoreira@gmail.com" className="navbar-item">
+        Contact
+      </a>
     </>
   )
 }
