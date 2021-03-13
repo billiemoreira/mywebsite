@@ -36,9 +36,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "css-build": "node-sass --omit-source-map-url src/mystyles.scss src/mystyles.css",
-    "css-watch": "npm run css-build -- --watch",
-    "css-start": "npm run css-watch",
-    "deploy": "npm run css-build && npm run build && firebase deploy"
+    "css-watch": "yarn css-build -- --watch",
+    "css-start": "yarn css-watch",
+    "deploy": "yarn css-build && yarn build && firebase deploy"
   },
   "eslintConfig": {
     "extends": [
