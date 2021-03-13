@@ -33,7 +33,6 @@ export default function ProjectText({ title, description, children }: Props) {
             fontWeight: 'bold',
             marginTop: '16px',
             wordWrap: 'break-word',
-            width: '70%',
             alignSelf: 'center',
             textAlign: 'center',
           }}
